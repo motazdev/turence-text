@@ -86,17 +86,17 @@ const MobileNav = ({
             ))}
             <div className="h-px bg-border my-1" />
             <div className=" text-[#8A8A8A] flex flex-col gap-6">
+              <Link
+                href={"/cart"}
+                className={cn(
+                  "text-sm flex  flex-row items-center gap-x-2 font-medium transition-colors hover:text-primary"
+                )}
+              >
+                <TLCartIcon />
+                {t("Cart")}
+              </Link>
               {user && (
                 <>
-                  <Link
-                    href={"/"}
-                    className={cn(
-                      "text-sm flex  flex-row items-center gap-x-2 font-medium transition-colors hover:text-primary"
-                    )}
-                  >
-                    <TLCartIcon />
-                    {t("Cart")}
-                  </Link>
                   <Link
                     href={"/notifications"}
                     className={cn(
