@@ -19,10 +19,6 @@ const HomeCategories = () => {
                   {t("Our Categories")}
                 </h2>
                 <div className="w-10 h-1 rounded-full bg-main"></div>
-
-                <div className="absolute z-[4] bottom-3">
-                  <TlGrayIcon />
-                </div>
               </div>
             </div>
             <CategoriesSwiper />

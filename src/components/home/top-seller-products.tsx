@@ -21,9 +21,6 @@ const TopSellerProducts = () => {
                   {t("Our Top Seller Products")}
                 </h2>
                 <div className="w-10 h-1 rounded-full bg-[#404040]"></div>
-                <div className="absolute z-[4] bottom-3">
-                  <TlGrayIcon />
-                </div>
               </div>
               <Link
                 href={"/products"}

@@ -15,10 +15,8 @@ import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { useEffect, useState } from "react";
 
 const Page = () => {
-  const arr = new Array(12).fill("");
   const t = useTranslations();
   const searchParams = useSearchParams();
-  const [openMenu, setOpenMenu] = useState(false);
   const page = parseInt(searchParams.get("page") || "1");
   // const categoryId = searchParams.get("id") || "";
   const [maxRate, setMaxRate] = useState<number | undefined>(undefined);

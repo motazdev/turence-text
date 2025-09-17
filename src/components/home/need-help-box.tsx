@@ -1,5 +1,5 @@
 "use client";
-import { needHelpBox } from "@/assets";
+import { makeup02, needHelpBox } from "@/assets";
 import Image from "next/image";
 import AppContainer from "../AppContainer";
 import { Button } from "../ui/button";
@@ -23,7 +23,7 @@ const NeedHelpBox = () => {
         <div className="bg-gradient-to-l rounded-3xl from-[rgba(0,0,0,0.7)] from-15% absolute inset-0 w-full h-full z-[11]"></div>
 
         <Image
-          src={needHelpBox}
+          src={makeup02}
           alt="hero"
           className="absolute start-0 rounded-3xl top-0 z-10 w-full h-full lg:object-left object-center object-cover"
         />

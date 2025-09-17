@@ -1,5 +1,5 @@
 "use client";
-import { howItWorksbg } from "@/assets";
+import { makeup01 } from "@/assets";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import AppContainer from "../AppContainer";
@@ -12,7 +12,7 @@ const HowItWorks = () => {
       <div className="ltr:bg-gradient-to-l rtl:bg-gradient-to-r from-[rgba(0,0,0,0.7)] from-15% absolute inset-0 w-full h-full z-[11]"></div>
 
       <Image
-        src={howItWorksbg}
+        src={makeup01}
         alt="hero"
         className="absolute start-0 top-0 z-10 w-full h-full ltr:scale-x-[unset] rtl:scale-x-[-1] object-left object-cover"
         priority

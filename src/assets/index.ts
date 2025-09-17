@@ -17,6 +17,7 @@ import howitwork04 from "./images/cash-on-delivery.png";
 import empty_cart from "./images/empty-cart.svg";
 
 import howitwork05 from "./images/excited.png";
+import makeupHeroBG from "./images/makeup-herobg.jpg";
 import discountVoucher from "./images/discount-voucher.png";
 import footerBg from "./images/footerBg.png";
 import doubleQoute from "./images/double-quote.png";
@@ -41,15 +42,22 @@ import aboutUs04 from "./images/about-us04.png";
 import customerService from "./images/customer-service.png";
 import notfound from "./images/notfound.png";
 import needHelpBox from "./images/need-help-box.png";
+import makeup01 from "./images/makeup01.jpg";
+import makeup02 from "./images/makeup02.jpg";
+import makeup03 from "./images/makeup03.jpg";
 
 export {
   needHelpBox,
+  makeup02,
+  makeup01,
+  makeup03,
   nothingExist,
   howItWorksbg,
   notfound,
   aboutUs01,
   bgPattern,
   customerService,
+  makeupHeroBG,
   aboutUs02,
   aboutUs03,
   aboutUs04,

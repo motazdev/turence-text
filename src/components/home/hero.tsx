@@ -1,6 +1,6 @@
 "use client";
 
-import { discountGreenBadge, heroBg } from "@/assets";
+import { discountGreenBadge, heroBg, makeupHeroBG } from "@/assets";
 import { useHomeData } from "@/contexts/global/home-data";
 import { cn } from "@/lib/utils";
 import useEmblaCarousel from "embla-carousel-react";
@@ -57,20 +57,11 @@ const Hero = () => {
     >
       <div className="ltr:bg-gradient-to-r rtl:bg-gradient-to-l from-[rgba(0,0,0,0.7)] from-15% absolute inset-0 w-full h-full z-[11]"></div>
       <Image
-        src={heroBg}
+        src={makeupHeroBG}
         alt="hero"
         className="absolute  start-0 top-0 ltr:scale-x-[unset] rtl:scale-x-[-1] lg:object-center object-right z-10 w-full h-full object-cover"
         priority
       />
-      <div className="absolute z-[11] -bottom-0 start-[21%]">
-        <TLLogoIcon />
-      </div>
-      <div className="absolute z-[11] -end-6 ltr:rotate-[270deg] rtl:-rotate-[270deg] bottom-2/4">
-        <TLLogoIcon />
-      </div>
-      <div className="absolute z-[11] start-[50%] -top-0 -rotate-180">
-        <TLLogoIcon />
-      </div>
 
       <AppContainer className="flex lg:flex-row flex-col justify-between items-center">
         <div

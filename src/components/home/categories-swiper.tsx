@@ -93,22 +93,16 @@ const CategoriesSwiper = () => {
             <SwiperSlide key={idx}>
               <Link
                 href={`/categories/${category.id}`}
-                className="rounded-full flex justify-center items-center bg-[#E6E6E64D] size-40 p-6"
+                className="rounded-full flex justify-center items-center bg-[#E6E6E64D] size-44 "
               >
-                <div className="relative size-44">
+                <div className="relative  size-30">
                   <Image
                     src={category.image}
                     alt="category"
                     fill
-                    className="rounded-full absolute object-contain"
+                    className="size-full absolute object-contain"
                   />
                 </div>
-              </Link>
-              <Link
-                href={`/categories/${category.id}`}
-                className="text-sm line-clamp-2 truncate  mt-2 text-center block"
-              >
-                {category.name}
               </Link>
             </SwiperSlide>
           ))}

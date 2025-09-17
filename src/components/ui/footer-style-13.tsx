@@ -1,5 +1,5 @@
 "use client";
-import { footerBg, logoWhite } from "@/assets";
+import { footerBg, logoWhite, makeup03 } from "@/assets";
 import TLFacebook from "@/components/facebook-icon";
 import TLInstagramIcon from "@/components/instagram-icon";
 import TLLinkedIn from "@/components/linkedin-icon";
@@ -60,10 +60,10 @@ const FooterStyle13 = () => {
     <footer className=" pb-8 bg-[#1B1B1B]  mt-5 relative w-full   h-full ">
       <div className="bg-[#020202B2] absolute inset-0 size-full z-20"></div>
       <Image
-        src={footerBg}
+        src={makeup03}
         alt=""
         fill
-        className="z-10 object-cover  size-full absolute object-top "
+        className="z-10 object-cover  size-full absolute object-center "
       />
       <div className="flex container z-[35]  mx-auto lg:px-20 px-6 flex-row items-center gap-3 justify-between text-white  pt-20 pb-6  mt-4 font-semibold">
         <div className="grid grid-cols-2 z-[35] gap-6 lg:grid-cols-6">

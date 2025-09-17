@@ -53,9 +53,6 @@ const Reviews = () => {
                   {t("Reviews")}
                 </h2>
                 <div className="w-10 h-1 rounded-full bg-[#404040]"></div>
-                <div className="absolute z-[4] bottom-3">
-                  <TlGrayIcon />
-                </div>
               </div>
               <p className="lg:max-w-[55%] md:max-w-[70%] max-w-[90%]">
                 {t("Reviews Desc")}

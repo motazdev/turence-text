@@ -71,8 +71,6 @@ const Navbar = () => {
   const { user } = useAuth();
   return (
     <header className="sticky top-0 z-40 bg-white w-full shadow-sm transition-all duration-500">
-      <AdBox />
-
       <AppContainer className="flex flex-row items-center py-4">
         <div className="me-4 items-center flex">
           <Link href="/" className="me-6 flex items-center space-x-2">
