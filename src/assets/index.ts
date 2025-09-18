@@ -45,8 +45,10 @@ import needHelpBox from "./images/need-help-box.png";
 import makeup01 from "./images/makeup01.jpg";
 import makeup02 from "./images/makeup02.jpg";
 import makeup03 from "./images/makeup03.jpg";
+import heroGrid from "./images/hero-grid.png";
 
 export {
+  heroGrid,
   needHelpBox,
   makeup02,
   makeup01,
